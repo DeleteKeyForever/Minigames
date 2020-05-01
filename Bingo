@@ -1,0 +1,289 @@
+import random
+
+print ("You get 6 chances to get 5 in a row.")
+B = random.randint(0,9)
+C = random.randint(0,9)
+D = random.randint(0,9)
+E = random.randint(0,9)
+F = random.randint(0,9)
+G = random.randint(0,9)
+H = random.randint(0,9)
+I = random.randint(0,9)
+J = random.randint(0,9)
+K = random.randint(0,9)
+L = random.randint(0,9)
+M = random.randint(0,9)
+N = random.randint(0,9)
+O = random.randint(0,9)
+P = random.randint(0,9)
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+PlayerIsCow = input("This is your Bingo card. When ready to move on press 't'.")
+if PlayerIsCow == "t":
+  for i in range (0,1):
+    A = random.randint(0,9)
+    if B == A:
+      B = "X"
+    if C == A:
+      C = "X"
+    if D == A:
+      D = "X"
+    if E == A:
+      E = "X"
+    if F == A:
+      F = "X"
+    if G == A:
+      G = "X"
+    if H == A:
+      H = "X"
+    if I == A:
+      I = "X"
+    if J == A:
+      J = "X"
+    if K == A:
+      K = "X"
+    if L == A:
+      L = "X"
+    if M == A:
+      M = "X"
+    if N == A:
+      N = "X"
+    if O == A:
+      O = "X"
+    if P == A:
+      P = "X"
+print ("----------")
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+if B == "X" and C == "X" and D == "X" and E == "X" and F == "X":
+  print ("You Win.")
+elif G == "X" and H == "X" and I == "X" and J == "X" and K == "X":
+  print ("You Win.")
+elif L == "X" and M == "X" and N == "X" and O == "X" and P == "X":
+  print ("You Win.")
+print ("The number called was", A)
+PlayerChoice = input("Ready to move on? Press 't'.")
+if PlayerChoice == "t":
+  A = random.randint(1,9)
+  if B == A:
+    B = "X"
+  if C == A:
+    C = "X"
+  if D == A:
+    D = "X"
+  if E == A:
+    E = "X"
+  if F == A:
+    F = "X"
+  if G == A:
+    G = "X"
+  if H == A:
+    H = "X"
+  if I == A:
+    I = "X"
+  if J == A:
+    J = "X"
+  if K == A:
+    K = "X"
+  if L == A:
+    L = "X"
+  if M == A:
+    M = "X"
+  if N == A:
+    N = "X"
+  if O == A:
+    O = "X"
+  if P == A:
+    P = "X"
+print ("----------")
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+if B == "X" and C == "X" and D == "X" and E == "X" and F == "X":
+  print ("You Win.")
+elif G == "X" and H == "X" and I == "X" and J == "X" and K == "X":
+  print ("You Win.")
+elif L == "X" and M == "X" and N == "X" and O == "X" and P == "X":
+  print ("You Win.")
+print ("The number called was", A)
+PlayerChoice1 = input("Ready to move on? Press 't'.")
+if PlayerChoice1 == "t":
+  A = random.randint(1,9)
+  if B == A:
+    B = "X"
+  if C == A:
+    C = "X"
+  if D == A:
+    D = "X"
+  if E == A:
+    E = "X"
+  if F == A:
+    F = "X"
+  if G == A:
+    G = "X"
+  if H == A:
+    H = "X"
+  if I == A:
+    I = "X"
+  if J == A:
+    J = "X"
+  if K == A:
+    K = "X"
+  if L == A:
+    L = "X"
+  if M == A:
+    M = "X"
+  if N == A:
+    N = "X"
+  if O == A:
+    O = "X"
+  if P == A:
+    P = "X"
+print ("----------")
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+if B == "X" and C == "X" and D == "X" and E == "X" and F == "X":
+  print ("You Win.")
+elif G == "X" and H == "X" and I == "X" and J == "X" and K == "X":
+  print ("You Win.")
+elif L == "X" and M == "X" and N == "X" and O == "X" and P == "X":
+  print ("You Win.")
+print ("The number called was", A)
+PlayerChoice2 = input("Ready to move on? Press 't'.")
+if PlayerChoice2 == "t":
+  A = random.randint(1,9)
+  if B == A:
+    B = "X"
+  if C == A:
+    C = "X"
+  if D == A:
+    D = "X"
+  if E == A:
+    E = "X"
+  if F == A:
+    F = "X"
+  if G == A:
+    G = "X"
+  if H == A:
+    H = "X"
+  if I == A:
+    I = "X"
+  if J == A:
+    J = "X"
+  if K == A:
+    K = "X"
+  if L == A:
+    L = "X"
+  if M == A:
+    M = "X"
+  if N == A:
+    N = "X"
+  if O == A:
+    O = "X"
+  if P == A:
+    P = "X"
+print ("----------")
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+if B == "X" and C == "X" and D == "X" and E == "X" and F == "X":
+  print ("You Win.")
+elif G == "X" and H == "X" and I == "X" and J == "X" and K == "X":
+  print ("You Win.")
+elif L == "X" and M == "X" and N == "X" and O == "X" and P == "X":
+  print ("You Win.")
+print ("The number called was", A)
+PlayerChoice3 = input("Ready to move on? Press 't'.")
+if PlayerChoice3 == "t":
+  A = random.randint(1,9)
+  if B == A:
+    B = "X"
+  if C == A:
+    C = "X"
+  if D == A:
+    D = "X"
+  if E == A:
+    E = "X"
+  if F == A:
+    F = "X"
+  if G == A:
+    G = "X"
+  if H == A:
+    H = "X"
+  if I == A:
+    I = "X"
+  if J == A:
+    J = "X"
+  if K == A:
+    K = "X"
+  if L == A:
+    L = "X"
+  if M == A:
+    M = "X"
+  if N == A:
+    N = "X"
+  if O == A:
+    O = "X"
+  if P == A:
+    P = "X"
+print ("----------")
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+if B == "X" and C == "X" and D == "X" and E == "X" and F == "X":
+  print ("You Win.")
+elif G == "X" and H == "X" and I == "X" and J == "X" and K == "X":
+  print ("You Win.")
+elif L == "X" and M == "X" and N == "X" and O == "X" and P == "X":
+  print ("You Win.")
+print ("The number called was", A)
+PlayerChoice4 = input("Ready to move on? Press 't'.")
+if PlayerChoice4 == "t":
+  A = random.randint(1,9)
+  if B == A:
+    B = "X"
+  if C == A:
+    C = "X"
+  if D == A:
+    D = "X"
+  if E == A:
+    E = "X"
+  if F == A:
+    F = "X"
+  if G == A:
+    G = "X"
+  if H == A:
+    H = "X"
+  if I == A:
+    I = "X"
+  if J == A:
+    J = "X"
+  if K == A:
+    K = "X"
+  if L == A:
+    L = "X"
+  if M == A:
+    M = "X"
+  if N == A:
+    N = "X"
+  if O == A:
+    O = "X"
+  if P == A:
+    P = "X"
+print ("----------")
+print (B, C, D, E, F)
+print (G, H, I, J, K)
+print (L, M, N, O, P)
+if B == "X" and C == "X" and D == "X" and E == "X" and F == "X":
+  print ("You Win.")
+elif G == "X" and H == "X" and I == "X" and J == "X" and K == "X":
+  print ("You Win.")
+elif L == "X" and M == "X" and N == "X" and O == "X" and P == "X":
+  print ("You Win.")
+else:
+  print ("You lose.")
+print ("The number called was", A)
+print ("The End")
